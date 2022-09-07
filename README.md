@@ -25,3 +25,9 @@ Follow [this](https://erc-iitb.notion.site/XLR8-Resources-27b1a2116f954aae861023
 
 Once you've ready to code, download and add the [PS4-esp32.zip](https://github.com/aed3/PS4-esp32/archive/refs/heads/master.zip) library to the adruino IDE.
 
+## Features
+The code enable the driver to access two mode. 
+1. Button Mode - The square, triangle, circle and X buttons on the PS4 to move the bot forward, back, left and right. While simultaneously controlling the PWM(overall speed) of the all motors using the variable analog trigger L2. This allows to turn and accerelerate with presicion.
+2. Joystick Mode - In this, both the left and right analog stick are used to move the bot. Each stick controller the speed of the motor on that side on the bot. It is like tank steering with individual access to both sides.
+
+By pressing the PS
