@@ -30,4 +30,8 @@ The code enable the driver to access two mode.
 1. Button Mode - The square, triangle, circle and X buttons on the PS4 to move the bot forward, back, left and right. While simultaneously controlling the PWM(overall speed) of the all motors using the variable analog trigger L2. This allows to turn and accerelerate with presicion.
 2. Joystick Mode - In this, both the left and right analog stick are used to move the bot. Each stick controller the speed of the motor on that side on the bot. It is like tank steering with individual access to both sides.
 
-By pressing the PS
+By pressing the PS Touchpad, the modes can be swithced back and forth.
+
+There is also a bumper sensor in the front of the car that can sense the frontal collision of bot and send sigal to esp32 through which the driver is notified by the vibration of the PS controller.
+
+
