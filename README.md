@@ -4,14 +4,21 @@ Using a Bluetooth capable microcontroller and PS4 to drive a RC car.
 
 # Making The Bot
 
-## Mechanical & Electrical Parts
+## Mechanical Parts
 The bot was bulit using hand cut 3mm acryllic sheets. 4 DC 200rpm motors are mounted on the bottom side with 7x4cm wheels.
 
+The motors on each side run simultaneously kinda like tank steering.
+
+I've used differetnial trottle to steer the bot left right as well as rotate at a fixed point.
+
+## Electorincs Part
 For electronics, I've used 
 1. ESP32 microcontroller.
 2. L298N motor driver, with PWM to controller the speed of motors.
 3. LM2596 Buck converter, to provide 5V for the ESP32.
 4. 12V battery, to power the whole thing.
+
+Click here for [circuit diagram]()
 
 ## The Code
 The bot can also be controlled using [wifi](https://erc-iitb.notion.site/XLR8-Resources-27b1a2116f954aae86102328ae5c1657).
