@@ -9,7 +9,7 @@ The bot was bulit using hand cut 3mm acryllic sheets. 4 DC 200rpm motors are mou
 
 The motors on each side run simultaneously kinda like tank steering.
 
-I've used differenial trottle to steer the bot left right as well as rotate at a fixed point.
+I've used differential trottle to steer the bot left right as well as rotate at a fixed point.
 
 ## Electorincs Part
 For electronics, I've used 
