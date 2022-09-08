@@ -25,6 +25,12 @@ Follow [this](https://erc-iitb.notion.site/XLR8-Resources-27b1a2116f954aae861023
 
 Once you've ready to code, download and add the [PS4-esp32.zip](https://github.com/aed3/PS4-esp32/archive/refs/heads/master.zip) library to the adruino IDE.
 
+## Setup
+First of all you need a PS4 controller. Download [SixAxis Pair Tool](https://sixaxispairtool.en.lo4d.com/windows).
+
+Now connect your controller using a usb mini cable(the same cable used to flash esp32) to laptop and launch Six Axis Pair Tool.
+Here you can change the MAC address of your controller which let you connect with esp32 seamlessly.
+Be sure to put the same MAC address in the Arduino code before flashing.
 ## Features
 The code enable the driver to access two mode. 
 1. Button Mode - The square, triangle, circle and X buttons on the PS4 to move the bot forward, back, left and right. While simultaneously controlling the PWM(overall speed) of the all motors using the variable analog trigger L2. This allows to turn and accerelerate with presicion.
