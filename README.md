@@ -35,7 +35,7 @@ Once you've ready to code, download and add the [PS4-esp32.zip](https://github.c
 First of all you need a PS4 controller. Download [SixAxis Pair Tool](https://sixaxispairtool.en.lo4d.com/windows).
 
 Now connect your controller using a usb mini cable(the same cable used to flash esp32) to laptop and launch Six Axis Pair Tool.
-Here you can change the MAC address of your controller which let you connect with esp32 seamlessly.
+Here you can change the MAC address stored inside of your controller which let you connect with esp32 seamlessly.
 Be sure to put the same MAC address in the Arduino code before flashing.
 
 
