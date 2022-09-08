@@ -42,5 +42,6 @@ By pressing the PS Touchpad, the modes can be swithced back and forth.
 
 There is also a bumper sensor in the front of the car that can sense the frontal collision of bot and send sigal to esp32 through which the driver is notified by the vibration of the PS controller.
 
-<img src="https://s4.gifyu.com/images/ezgif-3-ad8b9226cc.gif" width="320" height="200" left="100px"/>
-
+<p align="center">
+  <img width="320" height="200" src="https://s4.gifyu.com/images/ezgif-3-ad8b9226cc.gif">
+</p>
