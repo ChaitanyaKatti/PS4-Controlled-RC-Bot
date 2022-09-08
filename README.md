@@ -15,7 +15,6 @@ For electronics, I've used
 
 ## The Code
 The bot can also be controlled using [wifi](https://erc-iitb.notion.site/XLR8-Resources-27b1a2116f954aae86102328ae5c1657).
-
 But a connection over Bluetooth is far more reliable and PS4 controller has very low latency and good range.
 
 This project uses arduino IDE to write and flash code onto ESP32 microcontroller.
