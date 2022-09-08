@@ -18,7 +18,8 @@ For electronics, I've used
 3. LM2596 Buck converter, to provide 5V for the ESP32.
 4. 12V battery, to power the whole thing.
 
-Click here for [circuit diagram](https://drive.google.com/file/d/1twA_VGiNjjAlo-SBfk5Sl7oSNgCqTR_O/view?usp=sharing)
+Click here for [circuit diagram](https://drive.google.com/file/d/1twA_VGiNjjAlo-SBfk5Sl7oSNgCqTR_O/view?usp=sharing).
+Be sure to remove the shorting pin connector on the motor driver otherwise it will fry your esp32.
 
 ## The Code
 The bot can also be controlled using [wifi](https://erc-iitb.notion.site/XLR8-Resources-27b1a2116f954aae86102328ae5c1657).
