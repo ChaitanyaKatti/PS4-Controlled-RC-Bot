@@ -44,4 +44,5 @@ There is also a bumper sensor in the front of the car that can sense the frontal
 
 <p align="center">
   <img width="320" height="200" src="https://s4.gifyu.com/images/ezgif-3-ad8b9226cc.gif">
+  <img src="https://s4.gifyu.com/images/PS4-controller-1.gif" width="100" height="100">
 </p>
