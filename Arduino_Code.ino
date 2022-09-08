@@ -1,9 +1,12 @@
 #include <PS4Controller.h>
 #include "analogWrite.h"
 
+//Setting the mac address
+string MAC_ADDRESS = "put any valid mac address here"; // Example 1a:2b:3c:4d:5e:6f. Make sure this is the same mac address you've used to configure your PS4 controller
+
 // These pins are the Enable pins of the L293D motor driver which connects to esp32 gpio pins to implement the PWM function
-int enable1_2 = 32;
-int enable3_4 = 33; 
+int enable1_2 = 32; //Enable pin for LEFT side
+int enable3_4 = 33; //Enable pin for RIGHT side
 
 // These pins are the input pins of l293d on the left side
 int inp1 = 25; //Fornt left motor
@@ -188,7 +191,7 @@ void setup(){
   digitalWrite(inp4, LOW);
   digitalWrite(inp3, LOW);  
 
-  if (!PS4.begin( "5c:96:56:1f:a4:db")) {
+  if (!PS4.begin( MAC_ADDRESS )) {
     //Serial.println("Initialization failed");
     return;
   }
