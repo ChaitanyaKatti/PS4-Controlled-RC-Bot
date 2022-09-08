@@ -43,7 +43,7 @@ There is also a bumper sensor in the front of the car that can sense the frontal
 
 <p align="center">
   <img width="320" height="200" src="https://s4.gifyu.com/images/ezgif-3-ad8b9226cc.gif">
-  
+  <img src="https://s4.gifyu.com/images/PS439a4ef8b26294286.gif" width="320" height="200">
 </p>
 #
-<img src="https://s4.gifyu.com/images/PS4.gif" width="100" height="100">
+
